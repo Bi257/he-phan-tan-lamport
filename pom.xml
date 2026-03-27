@@ -38,7 +38,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
             <configuration>
-                <mainClass>com.ued.distclock.DistClockApplication</mainClass>
+                <mainClass>DistClockApplication</mainClass>
             </configuration>
             <executions>
                 <execution>
