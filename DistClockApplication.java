@@ -10,7 +10,7 @@ import jakarta.persistence.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 // QUAN TRỌNG: scanBasePackages = "" giúp Spring Boot quét ở default package mà không bị lỗi
-@SpringBootApplication(scanBasePackages = "")
+@SpringBootApplication(scanBasePackages = "DistClockApplication")
 @EnableWebSocketMessageBroker
 public class DistClockApplication implements WebSocketMessageBrokerConfigurer {
     public static void main(String[] args) {
